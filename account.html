@@ -4,47 +4,52 @@
     <meta charset="utf-8">
     <title>Вход</title>
     <link rel="shortcut icon" href="img/icon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="index.html">Главная</a>
-        <a href="articles.html">Статьи</a>
-        <a href="lifehacks.html">Плюшки</a>
-        <a href="registration.html">Регистрация</a>
-        <a href="about_blog.html">О блоге</a>
+    <header class="bg-teal-3">
+      <nav class="container top">
+        <a class="text-blue-grey-9" href="index.html">Главная</a>
+        <a class="text-blue-grey-9" href="articles.html">Статьи</a>
+        <a class="text-blue-grey-9" href="lifehacks.html">Плюшки</a>
+        <a class="text-blue-grey-9" href="registration.html">Регистрация</a>
+        <a class="text-blue-grey-9" href="about_blog.html">О блоге</a>
       </nav>
     </header>
     <hr>
-    <form action="#" method="post">
-      <div>
-        <label for="login">Email:</label>
-        <input type="text" id="login" name="login" placeholder="Введите email" required minlength="7" autofocus autocomplete="on">
-      </div>
-      <div>
-        <label for="password">Пароль:</label>
-        <input type="password" id="password" name="password" placeholder="Введите пароль" required maxlength="10" autocomplete="on">
-      </div>
-      <div>
-        <label>
-          Запомнить меня
-          <input type="checkbox" checked>
-        </label>
-      </div>
-      <div>
-        <input type="submit" value="Войти">
-        <input type="reset" value="Очистить">
-      </div>
 
-    </form>
+    <main class="container">
+      <form action="#" method="post">
+        <div>
+          <label for="login">Email:</label>
+          <input type="text" id="login" name="login" placeholder="Введите email" required minlength="7" autofocus autocomplete="on">
+        </div>
+        <div>
+          <label for="password">Пароль:</label>
+          <input type="password" id="password" name="password" placeholder="Введите пароль" required maxlength="10" autocomplete="on">
+        </div>
+        <div>
+          <label>
+            Запомнить меня
+            <input type="checkbox" checked>
+          </label>
+        </div>
+        <div>
+          <input type="submit" value="Войти">
+          <input type="reset" value="Очистить">
+        </div>
+
+      </form>
+
+      <hr>
+
+      <img class="image_index" src="gif/privetiki.gif" alt="приветик">    
+
+    </main>
 
     <hr>
 
-    <img src="gif/privetiki.gif" alt="приветик">
-
-    <hr>
-
-    <footer>
+    <footer class="bg-teal-3 text-blue-grey-9">
     Подвал <b>ЗАМЕЧАТЕЛЬНОГО</b> сайта
     </footer>
 

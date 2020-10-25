@@ -1,0 +1,110 @@
+body {
+  font-size: 19px;
+  margin: 0;
+  background-image: url(../img/fon37.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+header,
+footer {
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+table {
+  margin-top: 30px;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+table,
+th,
+td {
+  border: 3px groove grey;
+  border-radius: 20px;
+  text-align: center;
+  padding:
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.image_index {
+  width: 40%;
+  height: auto;
+}
+
+.image_index12 {
+  width: 10%;
+  height: 10%;
+}
+
+.more-btn {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.top {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bg-cyan-8 {
+  background: rgb(0,131,143);
+}
+
+.bg-teal-3 {
+  background: rgb(77,182,172);
+}
+
+.bg-cyan-2 {
+  background: rgb(128,203,196);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-cyan-3 {
+  color: rgb(77,208,225);
+}
+
+.text-blue-grey-9 {
+  font-size: 24px;
+  color: rgb(38,50,56);
+}
+
+.text-blue-grey-9-2 {
+  font-size: 19px;
+  color: rgb(38,50,56);
+}
+
+.text-blue-grey-9-3 {
+  color: rgb(38,50,56);
+  font-size: 26px;
+}
+
+.text-blue-grey-9-4 {
+  color: rgb(38,50,56);
+  font-size: 18px;
+}

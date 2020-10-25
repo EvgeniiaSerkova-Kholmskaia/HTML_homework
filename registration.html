@@ -4,26 +4,27 @@
     <meta charset="utf-8">
     <title>Регистрация</title>
     <link rel="shortcut icon" href="img/icon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="index.html">Главная</a>
-        <a href="articles.html">Статьи</a>
-        <a href="lifehacks.html">Плюшки</a>
-        <a href="registration.html">Регистрация</a>
-        <a href="about_blog.html">О блоге</a>
+    <header class="bg-teal-3">
+      <nav class="container top">
+        <a class="text-blue-grey-9" href="index.html">Главная</a>
+        <a class="text-blue-grey-9" href="articles.html">Статьи</a>
+        <a class="text-blue-grey-9" href="lifehacks.html">Плюшки</a>
+        <a class="text-blue-grey-9" href="registration.html">Регистрация</a>
+        <a class="text-blue-grey-9" href="about_blog.html">О блоге</a>
       </nav>
     </header>
     <hr>
 
-    <main>
-      <section>
+    <main class="container">
+      <section class="text-blue-grey-9-2 text-center">
         <h2>Пожалуйста, заполните форму регистрации.</h2>
       </section>
 
       <div align="center">
-        <img src="gif/3Whh.gif" alt="wow" height="60" width="100">
+        <img class="image_index12" src="gif/3Whh.gif" alt="wow" height="60" width="100">
       </div>
 
       <form action="#" method="post">
@@ -61,7 +62,7 @@
             </div>
             <div>
               <label for="photos">Загрузите аватар:</label>
-              <input type="file" name="images[]" accept="image/*">
+              <input enctype="multipart/form-data" id="photos" type="file" name="images[]" accept="image/*">
             </div>
             <div>
               <p>Получать рассылку новостей на указанный email?</p>
@@ -79,14 +80,14 @@
       </form>
 
       <div align="center">
-        <img  src="gif/3BBU.gif" alt="thanks">
+        <img class="image_index12" src="gif/3BBU.gif" alt="thanks">
       </div>
 
     </main>
 
     <hr>
 
-    <footer>
+    <footer class="bg-teal-3 text-blue-grey-9">
     Подвал <b>ЗАМЕЧАТЕЛЬНОГО</b> сайта
     </footer>
 
