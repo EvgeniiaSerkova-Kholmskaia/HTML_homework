@@ -8,6 +8,7 @@
     <title>Главная</title>
     <link rel="shortcut icon" href="img/icon.png" type="image/png">
     <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
 
   <body>
@@ -21,37 +22,48 @@
       </nav>
     </header>
     <hr>
-    <main class="container">
-      <a class="more-btn bg-cyan-8 text-cyan-3 text-center" href="account.html"> <b> В Х О Д </b> </a>
+    <main class="container main-top">
+      <a class="more-btn bg-cyan-8 text-cyan-3 text-center shadow-btn" href="account.html"> <b> В Х О Д </b> </a>
 
       <section class="text-blue-grey-9-4 text-center">
-        <h1>Интересное</h1>
+        <h1> <span class="shadow-text">Интересное</span> </h1>
       </section>
 
-      <article>
-        <h3 class="text-blue-grey-9">Узнай больше о славном городе Хельсинки:</h3>
+      <article class="shadow-block">
+        <h3 class="text-blue-grey-9"> <span class="shadow-text">Узнай больше о славном городе Хельсинки:</span> </h3>
         <img class="image_index" src="img/helsinki.jpg" alt="хельсинки">
         <p>Столица и крупнейший город страны, Хельсинки расположен на изрезанном заливами и шхерами <br>
         берегу Финского залива Балтийского моря в южной части...</p>
-        <a class="more-btn bg-cyan-2 text-blue-grey-9-4 text-center" href="articles.html#finland">Продолжение здесь</a>
+        <a class="more-btn bg-cyan-2 text-blue-grey-9-4 text-center shadow-btn" href="articles.html#finland"> <b>Продолжение здесь</b> </a>
       </article>
 
-      <article>
-        <h3 class="text-blue-grey-9">У нас есть пара интересных вопросов для тебя :)</h3>
+      <article class="shadow-block">
+        <div class="item">
+          <q class="text-blue-grey-9"> <span class="shadow-text"> <b>Флоренция - родина выдающихся гениев.</b> </span> </q>
+          <img src="img/florence.jpg">
+          <div>
+            <a class="bg-cyan-2 text-blue-grey-9-4" href="articles.html#florence"> <b>Подробнее</b> </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="shadow-block">
+        <h3 class="text-blue-grey-9"> <span class="shadow-text">У нас есть пара интересных вопросов для тебя :)</span> </h3>
         <img class="image_index12" src="gif/6jq.gif" alt="опрос">
         <p> <b>Будь крутым</b> - пройди опрос и помоги сделать наш контент еще лучше! </p>
-        <a class="more-btn bg-cyan-2 text-blue-grey-9-4 text-center" href="survey.html">Жми сюда</a>
+        <a class="more-btn bg-cyan-2 text-blue-grey-9-4 text-center shadow-btn" href="survey.html"> <b>Жми сюда</b> </a>
       </article>
 
-      <article>
-        <h3 class="text-blue-grey-9">Прекраснейший музыкальный трек-лист</h3>
+      <article class="shadow-block">
+        <h3 class="text-blue-grey-9"> <span class="shadow-text">Прекраснейший музыкальный плейлист</span> </h3>
         <img class="image_index12" src="img/music.jpg" alt="music">
         <p>Здесь тебя ждет море вдохновляющей музыки!</p>
-        <a class="more-btn bg-cyan-2 text-blue-grey-9-4 text-center" href="playlist.html">Тыкай тут</a>
+        <a class="more-btn bg-cyan-2 text-blue-grey-9-4 text-center shadow-btn" href="playlist.html"> <b>Тыкай тут</b> </a>
       </article>
 
-      <article>
-        <h1 class="text-blue-grey-9">Новости</h1>
+      <h1 class="text-blue-grey-9 text-center"> <span class="shadow-text">Новости</span> </h1>
+
+      <article class="shadow-block">
         <p>Тут появилось крутое видео, зацените!</p>
         <video controls class="image_index">
           <source src="video/прогулка_по_риму.mp4" type="video/mp4">
@@ -66,6 +78,8 @@
 
 
     </main>
+
+    <a href="#" class="btn-up bg-cyan-8 text-cyan-3 material-icons">navigation</a>
 
     <hr>
     <footer class="bg-teal-3 text-blue-grey-9">

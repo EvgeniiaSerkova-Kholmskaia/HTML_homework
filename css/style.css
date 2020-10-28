@@ -7,9 +7,22 @@ body {
   background-position: top;
 }
 
+header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  }
+
 header,
 footer {
   height: 50px;
+}
+
+article {
+  padding: 20px;
+  margin-bottom: 30px;
 }
 
 a {
@@ -49,24 +62,49 @@ td {
 }
 
 .image_index {
-  width: 40%;
+  max-width: 40%;
   height: auto;
 }
 
 .image_index12 {
-  width: 10%;
-  height: 10%;
+  max-width: 10%;
+  height: auto;
 }
 
 .more-btn {
   display: block;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.btn-up {
+  position: fixed;
+  right: 15px;
+  bottom: 20px;
+  padding: 15px;
+  font-size: 35px;
+  border-radius: 50%;
 }
 
 .top {
   padding-top: 10px;
-  padding-bottom: 10px;
+}
+
+.main-top {
+  margin-top: 70px;
+}
+
+.shadow-block {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-btn {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-text {
+  text-shadow: 3px 3px 6px rgb(120,144,156);
 }
 
 .bg-cyan-8 {
