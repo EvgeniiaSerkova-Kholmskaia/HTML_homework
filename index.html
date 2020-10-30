@@ -23,7 +23,8 @@
     </header>
     <hr>
     <main class="container main-top">
-      <a class="more-btn bg-cyan-8 text-cyan-3 text-center shadow-btn" href="account.html"> <b> В Х О Д </b> </a>
+
+        <a class="more-btn bg-cyan-8 text-cyan-3 text-center shadow-btn" href="#login-enter"> <b> В Х О Д </b> </a>
 
       <section class="text-blue-grey-9-4 text-center">
         <h1> <span class="shadow-text">Интересное</span> </h1>
@@ -80,6 +81,31 @@
     </main>
 
     <a href="#" class="btn-up bg-cyan-8 text-cyan-3 material-icons">navigation</a>
+
+    <div id="login-enter" class="authorization">
+      <form action="#" method="post">
+        <div>
+          <label for="login">Email:</label>
+          <input type="text" id="login" name="login" placeholder="Введите email" required minlength="7" autofocus autocomplete="on">
+        </div>
+        <div>
+          <label for="password">Пароль:</label>
+          <input type="password" id="password" name="password" placeholder="Введите пароль" required maxlength="10" autocomplete="on">
+        </div>
+        <div>
+          <label>
+            Запомнить меня
+            <input type="checkbox" checked>
+          </label>
+        </div>
+        <div>
+          <button type="submit" name="Войти">Войти</button>
+          <button type="reset" name="Очистить">Очистить</button>
+        </div>
+        <a href="#close" class="btn-close material-icons">close</a>
+      </form>
+
+    </div>
 
     <hr>
     <footer class="bg-teal-3 text-blue-grey-9">

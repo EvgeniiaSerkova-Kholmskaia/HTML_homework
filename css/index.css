@@ -29,3 +29,62 @@
   text-align: center;
   border-radius: 5px;
 }
+
+.authorization {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 3;
+}
+
+.authorization:before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: -3;
+}
+
+.authorization form {
+  position: relative;
+  width: 350px;
+  border-radius: 20px;
+  margin: 150px auto;
+  padding: 30px;
+  background: rgb(77,182,172);
+}
+
+.authorization input {
+  border-style: none;
+  outline-style: none;
+  background: transparent;
+}
+
+input[type=text],
+input[type=password] {
+  width: 300px;
+  border-bottom: 2px solid white;
+  border-radius: 0;
+  color: white;
+  padding: 0 0 5px 30px;
+}
+
+.authorization button {
+  margin-top: 15px;
+  height: 27px;
+  background: rgb(0,131,143);
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.btn-close {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  color: white;
+
+}
+
+#login-enter:target {
+  display: block;
+}

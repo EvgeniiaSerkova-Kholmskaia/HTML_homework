@@ -41,18 +41,27 @@ img {
 }
 
 table {
-  margin-top: 30px;
+  margin-top: 15px;
+  margin-left: 80px;
   border-collapse: collapse;
   width: 40%;
+  background: rgb(178,235,242);
 }
 
 table,
 th,
 td {
   border: 3px groove grey;
-  border-radius: 20px;
   text-align: center;
-  padding:
+  padding: 15px;
+}
+
+tr:first-child {
+  background: rgb(176,190,197);
+}
+
+tr:hover {
+  background: rgb(176,190,197);
 }
 
 .container {
