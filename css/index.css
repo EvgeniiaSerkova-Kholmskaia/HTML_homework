@@ -1,33 +1,40 @@
 @import "style.css";
 
-.item {
+.florence {
   position: relative;
 }
 
-.item q {
+.florence q {
   position: absolute;
   left: 30px;
   top: 30px;
 }
 
-.item div {
+.florence div {
   position: absolute;
-  top: 0
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.5);
+  display: none;
 }
 
-.item a {
+.florence a {
   position: absolute;
   right: 0;
   bottom: 10%;
   left: 0;
+  bottom: 30%;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
   border-radius: 5px;
+  font-size: 20px;
+}
+
+.florence:hover div {
+  display: block;
 }
 
 .authorization {
